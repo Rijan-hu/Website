@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+p{
+    font-size: 18px;
+    font-weight: 600;
+}
+    img{
+    width: 20%;
+    height: 300px;
+}
+#intro{
+background:linear-gradient(red,pink)
+}
+#intro li{
+    list-style-type: none;
+}
+.Nav{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/Goblin.webp);
+    background-repeat: no-repeat;
+}
+.para1{
+    border: 5px solid;
+    width: 60%;
+}
