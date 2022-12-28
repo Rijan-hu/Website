@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: 100%;
+    background-color:aqua;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+
+}
+#flex-item{
+    border: 10px solid #000;
+    width: 75px;
+    height: auto;
+    margin: 10px; ;
+}
+h1{
+    text-align: center;
+    text-shadow: 8px 8px 4px lightblue;
+    text-decoration: line-through;
+}
+#flex-item p{
+font-size: 14px;
+font-weight: bold;
+font-style: italic;
+color:purple;
+text-align: justify;
+text-transform: capitalize;
+text-indent: 40px;
+word-spacing: 16px;
+line-height: 2;
+}
+
