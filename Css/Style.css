@@ -1,29 +1,47 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: Poppins;
+    margin: 0 ;
+    padding: 0 ;
 }
-p{
-    font-size: 18px;
-    font-weight: 600;
+.main{
+    background-color: Rgb(127, 194, 199);
+    height: auto;
 }
-    img{
-    width: 20%;
-    height: 300px;
+.main{
+    width: 95%;
+    text-align: center;
+    padding: 38px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
-#intro{
-background:linear-gradient(red,pink)
-}
-#intro li{
-    list-style-type: none;
-}
-.Nav{
+.flex-container{
     width: 100%;
-    height: 600px;
-    background-image: url(../image/Goblin.webp);
-    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.para1{
-    border: 5px solid;
-    width: 60%;
+.flex-item img{
+    width: 300px;
+    height: 308PX;
+    margin-bottom: 8PX;
+}
+.text h1,h4,h5,h6{
+    text-align: center;
+
+}
+.text h4{
+    font: 2px;
+}
+.text h2{
+    font-size: 45px;
+    padding-bottom: 7px;
+}
+.txt h6{
+    font-size: 18px;
+    font-weight: 100;
+}
+.text h5{
+    font-size: 35pX;
+    font-weight: bold;
 }

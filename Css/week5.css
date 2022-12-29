@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.New img{
+    height: 715PX;
+}
+.text,img{
+    background-color: rgb(127, 255, 246);
+    height: 715px;
+    width: 50%;
+    float: right;
+}
+.text{
+    text-align: left;
+}
+h1{
+    font-weight: bold;
+    font-size: 400%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+h2{
+    font-weight: bold;
+    font-size: 400%;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+h3{
+    font-weight: bold;
+    font-size:200% ;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+h4,h5{
+    font-weight: bold;
+    font-size:200% ;
+    padding-left: 50px;
+}
+h4{
+    padding-top: 150px;
+}
+button{
+    font-size: 200%;
+    background-color:darkgreen;
+    color:black;
+    padding: 20px;
+    border: black;
+    border-radius: 20px;
+    margin: 50px;
+    cursor: pointer;
+}
