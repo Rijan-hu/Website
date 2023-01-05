@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </title>>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --color:blue;
+        }
+        body.html{
+            font-size: 12px;
+        }
+        .pixels{
+            width: 600px;
+            height: 600PX;
+            background-color: var(--color);
+        }
+        .percent{
+            width: 100%;
+            background-color: brown;
+        }
+        .cointainer{
+            font-size: 10px;
+        
+        }
+        .empheral{
+            font-size: 3em;
+            background-color: aquamarine
+        }
+        .relative{
+            font-size: 2rem;
+            background-color: beige;
+        }
+        .viewportwidth{
+            width: 100vw;  
+            background-color: chartreuse;  
+        }
+        .viewportheight{
+            height: 100vw;
+
+        }
+        .button{
+            padding: 20px;
+            background-color: var(--color);
+            border: none;
+            font-size: 24px;
+            color: white;
+            margin: 40px;
+        }
+        button:hover{
+            background-color: black;
+            color: aqua;
+        }
+        .img{
+            background-image: url(./image/wallpaper\ iphone.jpg);
+            width: 100%;
+            height: 550px;
+            background-repeat: no-repeat;
+            /*background-size: cover;
+            background-position: center;*/
+            margin-bottom: 120px;
+        }
+        .parent{
+            background-color: skyblue;
+            height: 100vh;
+            
+        }
+        .childone{
+            background-color: aqua;
+            position: relative;
+            left: 20px;
+        }
+        .childtwo{
+            background-color: azure;
+            position: relative;
+        }
+        .childthree{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>Sign in</button>
+        <div class="pixels">
+            <h1>pixels unit</h1>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab laboriosam eaque nulla praesentium aut eveniet veritatis id? Assumenda illo provident ipsam corporis sint dolore dolores nostrum quibusdam ipsum? Voluptate, ad.</h2>
+        </div>
+        <div class="percent">
+            <h1>Percent unit</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas at provident nobis quae atque, natus minus ipsa iusto, possimus aspernatur officiis dicta dolorem tempora id quia incidunt suscipit, porro ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti in illum mollitia voluptas perferendis nam reprehenderit architecto iste esse consequatur, voluptates deserunt aliquam exercitationem non? Voluptate, soluta? Minima, magnam!</p>
+        </div>
+        <div class="empheral">
+            <h1>Em Unit</h1>
+        </div>
+        <div class="relative">
+            <h1>Rem unit</h1>
+        </div>
+        <div class="viewportwidth">
+            <h1>width </h1>
+        </div>
+        <div class="viewportheight">
+            <h1>height</h1>
+        </div>
+        <div class="img" >
+            <img src="./image/wallpaper iphone.jpg" alt="">
+        </div>
+   
+        
+    </div>
+    <div class="parent">
+        parent
+        <div class="childone">Childone</div>
+        <div class="childtwo">Childtwo</div>
+        <div class="childthree">Childthree</div>
+    </div>
+</body>
+</html>

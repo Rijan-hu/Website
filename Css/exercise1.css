@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 95%;
+    padding: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: rgb(115, 187, 115);
+    height: auto;
+}
+.text{
+    color: white;
+    height: 280px;
+    width: 50%;
+    float: right;
+    word-spacing: 10px;
+    padding-top: 15px;
+}
+.word h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 15px;
+}
+.img{
+    width: 70%;
+    padding-left: 250px;
+}
+.flex-container{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
