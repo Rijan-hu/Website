@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #080808; 
+    color: #fff;
+}
+#main{
+    height: 100vh;
+    background-image: url(/image/images.jfif);
+    background-size: cover;
+
+   background-position: center;
+
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.container .inner{
+    padding-top: 20px;
+}
+.container .inner .header{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+.container .inner .header::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50px);
+    height: 4px;
+    width: 100px;
+    background-color: #2ecc71;
+}
+.container .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size:1.2rem ;
+}
+.container .container .skill-box{
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+.container .container .skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.img {
+    height: 150px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+}
