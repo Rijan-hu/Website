@@ -8,14 +8,12 @@ body{
 }
 #main{
     height: 100vh;
-    background-image: url(image/images.jfif);
+    background-image: url(/image/images.jfif);
     background-size: cover;
-
-   background-position: center;
-
+    background-position: center;
 }
 .container{
-    padding: 10px 10%;
+    padding: 10px 5%;
 }
 nav{
     display: flex;
@@ -46,4 +44,16 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+img{
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+.container .main .img{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.text{
+    float: left;
 }

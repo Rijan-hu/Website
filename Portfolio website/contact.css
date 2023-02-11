@@ -8,7 +8,7 @@ body{
 }
 #main{
     height: 100vh;
-    background-image: url(image/istockphoto-1311934969-170667a.jpg);
+    background-image: url(/image/istockphoto-1311934969-170667a.jpg);
     background-size: cover;
     background-position: center;
 }
